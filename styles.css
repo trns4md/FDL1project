@@ -1,0 +1,54 @@
+header{
+    background-color: blue;
+    color:yellow;
+}
+body{
+    background-color: palegoldenrod;
+}
+main{
+    border: 2px solid blue;
+    float: left;
+    margin-right: 300px;
+    width: 48%;
+    float: left;
+}
+h1{
+    text-align: center;
+    color:yellow;
+}
+h2{
+margin-bottom: 4px;
+background-color: grey;
+color: white;
+}
+h3{
+    color: grey;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: inline;
+}
+li{
+    color: yellow;
+    float: left;
+    padding: 10px;
+}
+h4{
+    color: grey;
+}
+aside{
+    border: 2px solid blue;
+    margin-left: 700px;
+    height: 290px;
+    text-align: left;
+}
+footer{
+    clear: both;
+}
+input[type=text]{
+    margin: 40px;
+    width: 100px;
+    height: 24px;
+}
