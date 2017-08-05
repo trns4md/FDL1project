@@ -1,48 +1,45 @@
 header{
     background-color: blue;
     color:yellow;
+    height: 100px;
 }
-body{
-    background-color: palegoldenrod;
-}
-main{
-    border: 2px solid blue;
-    float: left;
-    margin-right: 300px;
-    width: 48%;
-    float: left;
-}
-h1{
-    text-align: center;
-    color:yellow;
-}
-h2{
-margin-bottom: 4px;
-background-color: grey;
-color: white;
-}
-h3{
-    color: grey;
-}
-ul{
+header nav ul{
     list-style-type: none;
     padding: 0;
     margin: 0;
     display: inline;
 }
-li{
+header nav ul li{
     color: yellow;
     float: left;
     padding: 10px;
 }
-h4{
-    color: grey;
+body{
+    background-color: palegoldenrod;
 }
-aside{
-    border: 2px solid blue;
-    margin-left: 700px;
-    height: 290px;
-    text-align: left;
+a:visited{
+    color:white;
+}
+#derby{
+    height:200px;
+    width: 200px;
+}
+#outing{
+    height: 200px;
+    width: 400px;
+}
+
+h1{
+    color:yellow;
+    background-color: blue;
+}
+h2{
+clear: both;
+background-color: grey;
+color: white;
+}
+h3{
+    color: grey;
 }
 footer{
     clear: both;
@@ -51,4 +48,34 @@ input[type=text]{
     margin: 40px;
     width: 100px;
     height: 24px;
+}
+main{
+    float: left;
+    width: 50%;
+
+}
+#-Join {
+    float: left;
+    width: 30%;
+    
+
+}
+#-sidebar{
+    margin-left: 6px;
+}
+#contact-name{
+    margin-left: 57px;
+}
+#email-address{
+    margin-left: 57px;
+}
+#submit{
+    margin: 35px;
+}
+#joinus{
+    background-color: blue;
+}
+footer{
+    background-color: blue;
+    color: yellow;
 }
